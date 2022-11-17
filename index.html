@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home-work5</title>
+    <title>home-work6</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,8 +60,34 @@
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
 
                 <button class="hero-buton button carts-button" type="button" data-modal-open> Замовити послугу</button>
-                <div class="backdrop is-hidden" data-modal>
+                
+                <!-- <div class="backdrop is-hidden" data-modal> -->
                     <div class="modal">
+                        <form class="js-speker-form" autocomplete="on">
+                            <h1>Залиште свої дані, ми вам передзвонимо</h1>
+                        <div>
+                            <label for="name">Ім'я</label>
+                            <input type="text" name="name" id="name" autofocus/>
+                            <div>
+                        </div>
+                            <label for="tel"> Телефон</label>
+                            <input type="tel" name="tel" id="tel"/>
+                            <div>
+                            <label for="mail">Пошта</label>
+                            <input type="email" name="mail" id="mail"/>
+                        </div>
+                        <div>
+                            <label for="coment">Коментар</label>
+                            <textarea name="coment" id="coment" rows="10" placeholder="Введіть текст"></textarea>
+                        </div>
+                        <div>
+                        <input type="checkbox" name="" value="" id="Погоджуюся з розсилкою та приймаю  Умови договору">
+                        <label for="Погоджуюся з розсилкою та приймаю  Умови договору">Погоджуюся з розсилкою та приймаю  Умови договору</label>
+                    </div>
+                        <div>
+                        <button type="submit">Відправити</button>
+                    </div>
+                        </form>
                         <button class="button-close" type="button" data-modal-close>
                             <svg class="close" width="18px" height="18px">
                                 <use href="./images/close.svg#icon-close"></use>
