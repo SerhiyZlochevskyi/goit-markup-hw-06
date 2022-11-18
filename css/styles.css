@@ -748,7 +748,7 @@ border-radius: 4px
      margin-right: 0;
  }
 .modal-form{
- padding: 40px 30px;
+ margin: 10px 20px;
 }
 .modal-backdrop{
   margin-bottom: 10px;
@@ -799,7 +799,7 @@ color: #757575;
 
 }
 .form-h2{
-
+margin-top: 40px;
 font-size: 20px;
 
 letter-spacing: 0.03em;
@@ -809,4 +809,7 @@ color: #212121;
 .modal-chek{
  margin-bottom: 20px;
  margin-top: 30px;
+}
+.form-container{
+
 }

@@ -69,18 +69,22 @@
                                 <use href="./images/close.svg#icon-close"></use>
                             </svg>
                         </button>
+                        <h2 class="form-h2">Залиште свої дані, ми вам передзвонимо</h2>
                         <form name="form-buy" class="modal-form">
-                            <h2 class="form-h2">Залиште свої дані, ми вам передзвонимо</h2>
+                            
                             <div class="modal-backdrop">
-                            <label for="Ім'я" class="modal-label">Ім'я</label>
+                                <span><label for="Ім'я" class="modal-label">Ім'я</label></span>
+                            
                             <input type="text" class="modal-input" id="Ім'я">
                         </div>
                             <div class="modal-backdrop">
-                            <label for="Телефон" class="modal-label">Телефон</label>
+                                <span><label for="Телефон" class="modal-label">Телефон</label></span>
+                            
                             <input type="tel" class="modal-input" id="Телефон">
                         </div>
                             <div class="modal-backdrop">
-                            <label for="Пошта" class="modal-label">Пошта</label>
+                                <span><label for="Пошта" class="modal-label">Пошта</label></span>
+                           
                             <input type="email" class="modal-input" id="Пошта">
                         </div>
                             <div class="modal-backdrop">
@@ -89,7 +93,11 @@
                     </div>
                        <div class="modal-chek">
                        <input type="checkbox" id="Погоджуюся з розсилкою та приймаю">
-                       <label for="Погоджуюся з розсилкою та приймаю" class="modal-checkbox">Погоджуюся з розсилкою та приймаю Умови договору</label>
+                       <span><label for="Погоджуюся з розсилкою та приймаю" class="modal-checkbox">Погоджуюся з розсилкою та приймаю</label></span>
+                       
+
+                          <a href="#" class="link" target="_blank" rel="nofollow noreferrer noopener">
+                              Умови договору</a
                     </div>
                        <button type="submit" class="modal-buton">Відправити</button>
                         </form>
@@ -411,6 +419,11 @@
                 </ul>
 
             </div>
+        </div>
+        <div class="form-container">
+            <h2>Підпишіться на розсилку</h2>
+            <textarea name="" id="" cols="30" rows="10" placeholder="E-mail"></textarea>
+            <button type="submit">Підписатися</button>
         </div>
     </footer>
     <script src="./js/modal.js"></script>
