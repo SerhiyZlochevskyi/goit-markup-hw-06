@@ -267,7 +267,10 @@ right: 8px;
 fill: currentColor;
 color: #000000;
 }
-
+.button-close:hover,
+.button-close:focus {
+  fill: var(--focus-color);
+}
 .hero-buton {
   padding: 10px 32px;
   font-weight: 700;
@@ -489,7 +492,7 @@ padding-top: 16px;
   background: var(--bg-screan-footer-color);
 }
 .footer-logo {
-  
+  font-family: 'Raleway';
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
@@ -770,7 +773,7 @@ border-radius: 4px
  .form-field {
    display: flex;
    flex-direction: column;
-   margin: 10px;
+   margin-bottom: 10px;
    
  }
 
@@ -831,7 +834,14 @@ border-radius: 4px
    margin-bottom: 20px;
    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
-
+.modal-textarea {
+  
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  
+  
+  
+}
  .form-field textarea:focus-within {
    border-color: var(--accent-color);
  }
