@@ -549,6 +549,9 @@ color: var(--accent-color);
   align-items: baseline;
   gap: 70px;
  }
+ .ft-info {
+  flex-shrink: 0;
+ }
  .ft-info .social-ul {
   display: flex;
   justify-content: center;
@@ -909,7 +912,8 @@ border-radius: 4px
    cursor: pointer;
  }
  .form-container {
-   margin-left: calc(-70px + 93px);
+   margin-left: calc(-45px + 93px);
+   
  }
 
  .footer-form {
